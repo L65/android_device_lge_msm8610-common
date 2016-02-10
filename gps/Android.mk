@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter w5 w3ds,$(TARGET_DEVICE)),)
+ifneq ($(filter w5 w55ds w3ds,$(TARGET_DEVICE)),)
 
 LOC_PATH := $(call my-dir)
 
